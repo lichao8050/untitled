@@ -11,17 +11,6 @@ import pytest
 
 class TestApi:
 
-    # def setup(self):
-    #     print("每个用例执行之前的操作")
-    #
-    # def teardown(self):
-    #     print("每个用例执行之后的操作")
-    #
-    # def setup_class(self):
-    #     print("每个类执行之前的操作")
-    #
-    # def teardown_class(self):
-    #     print("每个类执行之前的操作")
     # 登录接口
     # @pytest.mark.parametrize('test_data', ["haha", "xixi"])
     @pytest.mark.parametrize('test_data', YamlUntil().read_testcase_yaml("/testcases/test_login.yaml"))
