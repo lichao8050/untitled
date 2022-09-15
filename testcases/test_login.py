@@ -9,7 +9,7 @@ from commons.yaml_until import YamlUntil
 import pytest
 
 
-class TestApi:
+class TestApi():
 
     # 登录接口
     # @pytest.mark.parametrize('test_data', ["haha", "xixi"])
@@ -18,7 +18,7 @@ class TestApi:
         method = test_data["request"]["method"]
         url = test_data["request"]["url"]
         headers = test_data["request"]["headers"]
-        params = test_data["request"]["data"]
+        data = test_data["request"]["data"]
         res = HttpRequest().send_all_request(method=method, url=url, params=data)
         print(res.json())
 
@@ -27,6 +27,6 @@ class TestApi:
     def test_soft_action_add(self, test_data):
         method = test_data["request"]["method"]
         url = test_data["request"]["url"]
-        json = test_data["request"]["json"]
+        data = test_data["request"]["data"]
         res = HttpRequest().send_all_request(method=method, url=url, json=data)
         print(res.json())

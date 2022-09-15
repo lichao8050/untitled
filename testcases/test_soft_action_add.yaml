@@ -3,7 +3,7 @@
   request:
     method: post
     url: http://kbs.matrixdesign.cn/api/authapi/bsProInfo/save
-    json: {"bidAmount": 0,
+    data: {"bidAmount": 0,
            "bsPaymentList": [{"entityStatus": 0,"index": 0}],
            "proName": "20220915财务开票测试项目2",
            "bsType": "1280327578854494209",
