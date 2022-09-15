@@ -1,0 +1,10 @@
+-
+  tatle: 登录接口
+  request:
+    method: post
+    url: http://kbs.matrixdesign.cn/api/pmtapi/base_Account/login
+    headers: null
+    data:
+      username: heqiangming
+      password: abc123456
+    validate: null
