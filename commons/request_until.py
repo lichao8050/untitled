@@ -9,6 +9,6 @@ import requests
 class HttpRequest:
     sess = requests.session()
 
-    def test_all_request(self, method, url, **kwargs):
+    def send_all_request(self, method, url, **kwargs):
         res = HttpRequest.sess.request(method, url, **kwargs)
         return res
