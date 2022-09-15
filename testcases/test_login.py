@@ -18,8 +18,8 @@ class TestApi:
         method = test_data["request"]["method"]
         url = test_data["request"]["url"]
         headers = test_data["request"]["headers"]
-        data = test_data["request"]["data"]
-        res = HttpRequest().send_all_request(method=method, url=url, headers=headers, data=data)
+        params = test_data["request"]["data"]
+        res = HttpRequest().send_all_request(method=method, url=url, params=data)
         print(res.json())
 
     # 软装执行项目新增接口
@@ -28,5 +28,5 @@ class TestApi:
         method = test_data["request"]["method"]
         url = test_data["request"]["url"]
         json = test_data["request"]["json"]
-        res = HttpRequest().send_all_request(method=method, url=url, json=json)
+        res = HttpRequest().send_all_request(method=method, url=url, json=data)
         print(res.json())
