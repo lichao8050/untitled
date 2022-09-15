@@ -3,7 +3,8 @@
   request:
     method: post
     url: http://kbs.matrixdesign.cn/api/pmtapi/base_Account/login
-    headers: null
+    headers:
+      Content-Type: application/x-www-form-urlencoded
     data:
       username: heqiangming
       password: abc123456

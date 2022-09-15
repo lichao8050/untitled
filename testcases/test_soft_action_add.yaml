@@ -1,9 +1,9 @@
 -
   title: 新增执行项目接口（软装）
-  request1:
-    method1: post
-    url1: http://kbs.matrixdesign.cn/api/authapi/bsProInfo/save
-    json1: {"bidAmount": 0,
+  request:
+    method: post
+    url: http://kbs.matrixdesign.cn/api/authapi/bsProInfo/save
+    json: {"bidAmount": 0,
            "bsPaymentList": [{"entityStatus": 0,"index": 0}],
            "proName": "20220915财务开票测试项目1",
            "bsType": "1280327578854494209",
