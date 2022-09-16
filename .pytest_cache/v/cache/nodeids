@@ -1,0 +1,13 @@
+[
+  "testcases/test_login.py::TestApi::test_action_view[haha]",
+  "testcases/test_login.py::TestApi::test_action_view[test_data0]",
+  "testcases/test_login.py::TestApi::test_action_view[test_data1]",
+  "testcases/test_login.py::TestApi::test_action_view[xixi]",
+  "testcases/test_login.py::TestApi::test_login_api[test_data0]",
+  "testcases/test_login.py::TestApi::test_login_api[test_data1]",
+  "testcases/test_login.py::TestApi::test_soft_action_add[consifo0]",
+  "testcases/test_login.py::TestApi::test_soft_action_add[consifo1]",
+  "testcases/test_login.py::TestApi::test_soft_action_add[test_data0]",
+  "testcases/test_login.py::TestApi::test_soft_action_add[testdata0]",
+  "testcases/test_login.py::TestApi::test_soft_action_add[testdata1]"
+]
