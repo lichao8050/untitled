@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b4e4dde-eb67-4877-9225-1827febf5a28" name="Default Changelist" comment="" />
+    <list default="true" id="1b4e4dde-eb67-4877-9225-1827febf5a28" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,6 +175,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="751" y="475" width="382" height="173" key="Github.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1663214762257" />
+    <state x="769" y="518" width="273" height="218" key="Github.ShareDialog" timestamp="1663295124579">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="769" y="518" width="273" height="218" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1663295124579" />
     <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1663236050207">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
