@@ -9,13 +9,13 @@ import time
 class HttpRequest:
     session = requests.session()
 
-    def send_all_request(self, method, url, data, **kwargs):
+    def send_all_request(self, method, url, **kwargs):
         method = str(method).lower()
         res = ""
         if method == 'get':
-            res = HttpRequest.sess.request(method, url, params=data, **kwargs)
+            res = HttpRequest.session.request(method, url, **kwargs)
         elif method == 'post':
-            res = HttpRequest.sess.request(method, url, json=data, **kwargs)
+            res = HttpRequest.session.request(method, url, **kwargs)
         return res
 
     def get_random(self):

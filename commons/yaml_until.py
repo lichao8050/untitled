@@ -15,11 +15,11 @@ class YamlUntil:
             return value
 
     # 写
-    def wtite_yaml(self, data):
-        with open(os.getcwd() + "/extract.yaml", mode='a', encoding='UTF-8') as yml:
+    def write_yaml(self, data):
+        with open(os.getcwd() + "./yaml/extract.yaml", mode='a', encoding='UTF-8') as yml:
             yaml.dump(data, stream=yml, allow_unicode=True)
 
     # 清空
     def clear_yaml(self):
-        with open(os.getcwd() + "/extract.yaml", 'w', encoding='UTF-8') as yml:
+        with open(os.getcwd() + "./yaml/extract.yaml", 'w', encoding='UTF-8') as yml:
             yml.truncate()

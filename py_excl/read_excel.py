@@ -5,9 +5,9 @@
 # Excel 读取为用例对象
 from openpyxl import load_workbook
 
-excel = load_workbook("test_excel.xlsx")
-sheet = excel.worksheets[0]
-print(sheet.cell(2, 1).value)
+# excel = load_workbook("test_excel.xlsx")
+# sheet = excel.worksheets[0]
+# print(sheet.cell(2, 1).value)
 
 
 class ExcelReader:

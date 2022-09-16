@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b4e4dde-eb67-4877-9225-1827febf5a28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_excl/test_read_case.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/request_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/commons/request_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/request_until.py" beforeDir="false" afterPath="$PROJECT_DIR$/commons/request_until.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/yaml_until.py" beforeDir="false" afterPath="$PROJECT_DIR$/commons/yaml_until.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_excl/read_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_excl/read_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +47,15 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\untitled\yaml" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\untitled\testcases" />
       <recent name="D:\untitled" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.run">
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,9 +77,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_read_case" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_excl" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_excl/test_read_case.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.run" />
+        <item itemvalue="Python.test_read_case" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663236047282</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="pytest csss">
+      <created>1663295741862</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663295741862</updated>
+    </task>
+    <task id="LOCAL-00009" summary="pytest csss">
+      <created>1663295796864</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663295796864</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -163,10 +208,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="899" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1663212674209" />
-    <state x="569" y="157" key="CommitChangelistDialog2" timestamp="1663295757784">
+    <state x="569" y="157" key="CommitChangelistDialog2" timestamp="1663295796047">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="569" y="157" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1663295757784" />
+    <state x="569" y="157" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1663295796047" />
     <state x="862" y="284" key="FileChooserDialogImpl" timestamp="1663294547646">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -175,34 +220,34 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="751" y="475" width="382" height="173" key="Github.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1663214762257" />
-    <state x="769" y="518" width="273" height="218" key="Github.ShareDialog" timestamp="1663295779381">
+    <state x="769" y="518" width="273" height="218" key="Github.ShareDialog" timestamp="1663296647509">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="769" y="518" width="273" height="218" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1663295779381" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1663236050207">
+    <state x="769" y="518" width="273" height="218" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1663296647509" />
+    <state width="1271" height="167" key="GridCell.Tab.0.bottom" timestamp="1663302651358">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1663236050207" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1663236050207">
+    <state width="1271" height="167" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1663302651358" />
+    <state width="1271" height="167" key="GridCell.Tab.0.center" timestamp="1663302651357">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1663236050207" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1663236050207">
+    <state width="1271" height="167" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1663302651357" />
+    <state width="1271" height="167" key="GridCell.Tab.0.left" timestamp="1663302651357">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1663236050207" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1663236050207">
+    <state width="1271" height="167" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1663302651357" />
+    <state width="1271" height="167" key="GridCell.Tab.0.right" timestamp="1663302651358">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1663236050207" />
+    <state width="1271" height="167" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1663302651358" />
     <state x="751" y="203" key="SettingsEditor" timestamp="1663214728125">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="751" y="203" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1663214728125" />
-    <state x="485" y="360" key="Vcs.Push.Dialog.v2" timestamp="1663294531012">
+    <state x="485" y="360" key="Vcs.Push.Dialog.v2" timestamp="1663296658185">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="485" y="360" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1663294531012" />
+    <state x="485" y="360" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1663296658185" />
     <state x="313" y="298" width="1161" height="658" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1663294611080">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
