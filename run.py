@@ -7,4 +7,5 @@ import pytest
 
 if __name__ == '__main__':
     pytest.main()
-    # print(YamlUntil().read_testcase_yaml('D:\\untitled\\testcases\\test_login.yaml'))
+    # e = YamlUntil().read_testcase_yaml('/yaml/extract.yaml')
+    # print(e)

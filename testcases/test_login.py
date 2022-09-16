@@ -21,21 +21,22 @@ class TestApi:
     # @pytest.mark.parametrize('test_data', ["haha", "xixi"])
     @pytest.mark.parametrize('test_data', YamlUntil().read_testcase_yaml("/testcases/test_login.yaml"))
     def test_login_api(self, test_data):
-        print(test_data)
         method = test_data["request"]["method"]
         url = test_data["request"]["url"]
         data = test_data["request"]["data"]
         res = HttpRequest().send_all_request(method=method, url=url, params=data)
         # print(res.json())
-        dic = {'cookie': res.headers['Set-Cookie']}
+        dic = {'Cookie': res.headers['Set-Cookie']}
         YamlUntil().write_yaml(dic)
-        cookie = res.headers['Set-Cookie']
+        Cookie = res.headers['Set-Cookie']
+        print(Cookie)
 
     # # 软装执行项目新增接口
-    # @pytest.mark.parametrize("test_data", YamlUntil().read_testcase_yaml("/testcases/test_soft_action_add.yaml", ))
-    # def test_soft_action_add(self, test_data):
-    #     method = test_data["request"]["method"]
-    #     url = test_data["request"]["url"]
-    #     data = test_data["request"]["data"]
-    #     res = HttpRequest().send_all_request(method=method, url=url, json=data)
-    #     print(res.json())
+    @pytest.mark.parametrize("test_data", YamlUntil().read_testcase_yaml("/testcases/test_soft_action_add.yaml"))
+    def test_soft_action_add(self, test_data):
+        method = test_data["request"]["method"]
+        url = test_data["request"]["url"]
+        data = test_data["request"]["data"]
+        res = HttpRequest().send_all_request(method=method, url=url, json=data)
+        print(res.headers)
+        print(res1.json())
