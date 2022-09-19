@@ -1,4 +1,5 @@
 [
+  "testcases/test_add_soft_action.py::TestSoftAddaPI::test_soft_action_add_api[test_data0]",
   "testcases/test_login.py::TestApi::test_action_view[haha]",
   "testcases/test_login.py::TestApi::test_action_view[test_data0]",
   "testcases/test_login.py::TestApi::test_action_view[test_data1]",
