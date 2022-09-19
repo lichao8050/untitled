@@ -13,31 +13,8 @@ import pytest
 # @pytest.fixture(scope='session', autouse=True)
 # def clear_cookie_data():
 #     YamlUntil().clear_yaml()
-#
-# class TestApi:
-#
-#     @pytest.fixture(scope='session', autouse=True)
-#     @pytest.mark.parametrize('test_data', YamlUntil().read_testcase_yaml("/testcases/test_login.yaml"))
-#     def test_login_api(self, test_data):
-#         method = test_data["request"]["method"]
-#         url = test_data["request"]["url"]
-#         data = test_data["request"]["data"]
-#         res = HttpRequest().send_all_request(method=method, url=url, params=data)
-#         print(res.headers['set-cookie'])
-#         print(res.json())
 
 
-
-
-
-
-
-
-
-
-
-
-#
 # class TestApi:
 #
 #     # 登录接口
