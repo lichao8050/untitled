@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1b4e4dde-eb67-4877-9225-1827febf5a28" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commons/request_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/commons/request_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_excl/read_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_excl/read_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_excl/test_excel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/py_excl/test_excel.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_excl/test_read_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_excl/test_read_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_add_soft_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_add_soft_action.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/test_soft_action_add.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_soft_action_add.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +55,7 @@
       <recent name="D:\untitled" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run">
+  <component name="RunManager" selected="Python.test_read_case">
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,6 +69,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_add_soft_action" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcases/test_add_soft_action.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcases/test_login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,8 +142,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.run" />
         <item itemvalue="Python.test_read_case" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.test_add_soft_action" />
+        <item itemvalue="Python.test_login" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663555166363</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="上传11">
+      <created>1663555379245</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1663555379245</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -237,14 +292,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="899" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1663212674209" />
-    <state x="569" y="157" key="CommitChangelistDialog2" timestamp="1663555165150">
+    <state x="569" y="157" key="CommitChangelistDialog2" timestamp="1663555378281">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="569" y="157" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1663555165150" />
-    <state x="862" y="284" key="FileChooserDialogImpl" timestamp="1663319970607">
+    <state x="569" y="157" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1663555378281" />
+    <state x="862" y="284" key="FileChooserDialogImpl" timestamp="1663562934403">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="862" y="284" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1663319970607" />
+    <state x="862" y="284" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1663562934403" />
     <state x="751" y="475" width="382" height="173" key="Github.CreateGistDialog" timestamp="1663214762257">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -253,38 +308,38 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="769" y="518" width="273" height="218" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1663296647509" />
-    <state width="1271" height="278" key="GridCell.Tab.0.bottom" timestamp="1663555129085">
+    <state width="1271" height="278" key="GridCell.Tab.0.bottom" timestamp="1663571599126">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1271" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1663555129085" />
-    <state width="1271" height="278" key="GridCell.Tab.0.center" timestamp="1663555129085">
+    <state width="1271" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1663571599126" />
+    <state width="1271" height="278" key="GridCell.Tab.0.center" timestamp="1663571599126">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1271" height="278" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1663555129085" />
-    <state width="1271" height="278" key="GridCell.Tab.0.left" timestamp="1663555129085">
+    <state width="1271" height="278" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1663571599126" />
+    <state width="1271" height="278" key="GridCell.Tab.0.left" timestamp="1663571599126">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1271" height="278" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1663555129085" />
-    <state width="1271" height="278" key="GridCell.Tab.0.right" timestamp="1663555129085">
+    <state width="1271" height="278" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1663571599126" />
+    <state width="1271" height="278" key="GridCell.Tab.0.right" timestamp="1663571599126">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1271" height="278" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1663555129085" />
-    <state width="1271" height="247" key="GridCell.Tab.1.bottom" timestamp="1663322659251">
+    <state width="1271" height="278" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1663571599126" />
+    <state width="1271" height="247" key="GridCell.Tab.1.bottom" timestamp="1663561788605">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1271" height="247" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1663322659251" />
-    <state width="1271" height="247" key="GridCell.Tab.1.center" timestamp="1663322659250">
+    <state width="1271" height="247" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1663561788605" />
+    <state width="1271" height="247" key="GridCell.Tab.1.center" timestamp="1663561788604">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1271" height="247" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1663322659250" />
-    <state width="1271" height="247" key="GridCell.Tab.1.left" timestamp="1663322659250">
+    <state width="1271" height="247" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1663561788604" />
+    <state width="1271" height="247" key="GridCell.Tab.1.left" timestamp="1663561788604">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1271" height="247" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1663322659250" />
-    <state width="1271" height="247" key="GridCell.Tab.1.right" timestamp="1663322659251">
+    <state width="1271" height="247" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1663561788604" />
+    <state width="1271" height="247" key="GridCell.Tab.1.right" timestamp="1663561788605">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1271" height="247" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1663322659251" />
+    <state width="1271" height="247" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1663561788605" />
     <state x="751" y="203" key="SettingsEditor" timestamp="1663214728125">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

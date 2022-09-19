@@ -16,6 +16,7 @@ def test_login_api():
         'password': 'abc123456'
     }
     res = HttpRequest().send_all_request(method=method, url=url, params=data)
+    print(data)
     print(res.headers['set-cookie'])
     print(res.json())
 

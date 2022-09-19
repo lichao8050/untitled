@@ -28,10 +28,35 @@ class ExcelReader:
         # 获取这张表总共有多少行
         rows_count = self.sheet_1.max_row
         # 有效用例数必须减去表头
-        real_count = rows_count - (self.start_row - 1)
+        real_count = rows_count - (self.start_row - 4)
         return real_count
+
+    def get_test_case_describe(self, rows):
+        '''获取接口描述， rows的参数是0开始，表示第1行'''
+        # self.start_row + rows 起始行+想要获取的行， 3表示接口url所在的固定列是3
+        return self.sheet_1.cell(self.start_row + rows, 1).value
+
+    def get_method(self, rows):
+        '''获取接口请求方式， rows的参数是0开始，表示第1行'''
+        # self.start_row + rows 起始行+想要获取的行， 3表示接口url所在的固定列是3
+        return self.sheet_1.cell(self.start_row + rows, 2).value
 
     def get_url(self, rows):
         '''获取接口URL， rows的参数是0开始，表示第1行'''
         # self.start_row + rows 起始行+想要获取的行， 3表示接口url所在的固定列是3
         return self.sheet_1.cell(self.start_row + rows, 3).value
+
+    def get_headers(self, rows):
+        '''获取接口请求头部， rows的参数是0开始，表示第1行'''
+        # self.start_row + rows 起始行+想要获取的行， 3表示接口url所在的固定列是3
+        return self.sheet_1.cell(self.start_row + rows, 4).value
+
+    def get_request_data(self, rows):
+        '''获取接口请求参数， rows的参数是0开始，表示第1行'''
+        # self.start_row + rows 起始行+想要获取的行， 3表示接口url所在的固定列是3
+        return self.sheet_1.cell(self.start_row + rows, 5).value
+
+    def get_start_code(self, rows):
+        '''获取接口响应状态码， rows的参数是0开始，表示第1行'''
+        # self.start_row + rows 起始行+想要获取的行， 3表示接口url所在的固定列是3
+        return self.sheet_1.cell(self.start_row + rows, 6).value
