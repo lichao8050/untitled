@@ -17,7 +17,7 @@ class TestApi:
 
     # 登录接口
     # @pytest.mark.parametrize('test_data', ["haha", "xixi"])
-    @pytest.mark.parametrize('test_data', YamlUntil().read_testcase_yaml("/testcases/test_login.yaml"))
+    @pytest.mark.parametrize('test_data', YamlUntil().read_testcase_yaml("\\test_login.yaml"))
     def test_login_api(self, test_data):
         method = test_data["request"]["method"]
         url = test_data["request"]["url"]
@@ -29,3 +29,5 @@ class TestApi:
         # Cookie = res.headers['Set-Cookie']
         print(res.json())
 
+if __name__ == '__main__':
+    pytest.main()

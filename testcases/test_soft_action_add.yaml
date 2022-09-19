@@ -5,7 +5,7 @@
     url: http://kbs.matrixdesign.cn/api/authapi/bsProInfo/save
     data: {"bidAmount": 0,
            "bsPaymentList": [{"entityStatus": 0,"index": 0}],
-           "proName": "20220919财务开票测试项目1",
+           "proName": "20220919财务开票测试项目4",
            "bsType": "1280327578854494209",
            "proType": "1284015946851291137",
            "customerId": "1331086994964615170",
@@ -42,7 +42,7 @@
     url: http://kbs.matrixdesign.cn/api/authapi/bsProInfo/save
     data: {"bidAmount": 0,
            "bsPaymentList": [{"entityStatus": 0,"index": 0}],
-           "proName": "20220919财务开票测试项目2",
+           "proName": "20220919财务开票测试项目5",
            "bsType": "1280327578854494209",
            "proType": "1284015946851291137",
            "customerId": "1331086994964615170",
@@ -79,7 +79,7 @@
     url: http://kbs.matrixdesign.cn/api/authapi/bsProInfo/save
     data: {"bidAmount": 0,
            "bsPaymentList": [{"entityStatus": 0,"index": 0}],
-           "proName": "20220919财务开票测试项目3",
+           "proName": "20220919财务开票测试项目6",
            "bsType": "1280327578854494209",
            "proType": "1284015946851291137",
            "customerId": "1331086994964615170",
