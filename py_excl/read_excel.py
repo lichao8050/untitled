@@ -5,6 +5,7 @@
 # Excel 读取为用例对象
 from openpyxl import load_workbook
 
+
 # excel = load_workbook("test_excel.xlsx")
 # sheet = excel.worksheets[0]
 # print(sheet.cell(2, 1).value)
@@ -61,9 +62,26 @@ class ExcelReader:
         # self.start_row + rows 起始行+想要获取的行， 3表示接口url所在的固定列是3
         return self.sheet_1.cell(self.start_row + rows, 6).value
 
-    def close_file(self, ):
+    def get_is_true_or_fail(self, rows):
+        """接口实际结果， rows的参数是0开始，表示第1行"""
+        # self.start_row + rows 起始行+想要获取的行， 3表示接口url所在的固定列是3
+        return self.sheet_1.cell(self.start_row + rows, 8).value
+
+    def save_file(self):
+        """保存Excel"""
+        self.excel_file.save(r"D:\untitled\py_excl\test_excel.xlsx")
+
+    def close_file(self):
         """关闭Excel"""
         self.excel_file.close()
 
+    # 设置某个单元格的值
     def set_pass_or_fail(self, rows, text):
-        self.sheet_1.cell(self.start_row + rows, 6, value=text)
+        self.sheet_1.cell(self.start_row + rows, 8, value=text)
+
+    def write_value(self, row, col, value):
+        data = xlrd.open_workbook(self.file)
+        data_copy = copy(data)
+        sheet = data_copy.get_sheet(0)  # 取得复制文件的sheet对象
+        sheet.write(row, col, value)  # 在某一单元格写入value
+        data_copy.save(self.file)

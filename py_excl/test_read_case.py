@@ -13,7 +13,36 @@ excel = ExcelReader(r"D:\untitled\py_excl\test_excel.xlsx")
 count_row = excel.get_case_count()
 for row in range(0, count_row):  # 循环语句   row是变量  范围是0到count
     test_casediscrible = excel.get_test_case_describe(row)
-    print(test_casediscrible)
+    # print(test_casediscrible)
+    url = excel.get_url(row)
+    # print(url)
+    data = eval(excel.get_request_data(row))  # 此处参数类型不是字符串，所以用eval转换为字典类型
+    # print(data)
+    method = excel.get_method(row)
+    # print(method)
+    headers = eval(excel.get_headers(row))  # 此处参数类型不是字符串，所以用eval转换为字典类型
+    # print(headers)
+    try:
+        res = HttpRequest().send_all_request(method=method, headers=headers, url=url, params=data)
+        print(res.json())
+        print(res.status_code)
+        if res.status_code != int(excel.get_start_code(row)):
+            print('这是不同', res.status_code)
+            print(int(excel.get_start_code(row)))
+            excel.set_pass_or_fail(row, 'fail')
+            print(excel.get_is_true_or_fail(row))
+        else:
+            print('这是相同', res.status_code)
+            print(int(excel.get_start_code(row)))
+            excel.set_pass_or_fail(row, 'pass')
+        excel.save_file()
+        excel.close_file()
+    except Exception as errors:
+        print(errors)
+
+    else:
+        pass
+
 # 模拟读取表格定义的单条数据进行接口请求
 # class TestLoginApi:
 #

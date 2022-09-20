@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b4e4dde-eb67-4877-9225-1827febf5a28" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/py_excl/login_excel.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_excl/test_add_action_case.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/py_excl/read_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_excl/read_excel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/py_excl/test_excel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/py_excl/test_excel.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/py_excl/test_read_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_excl/test_read_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,24 +33,28 @@
     </option>
   </component>
   <component name="ProjectId" id="2EmgbcqrTShagHWLdiNEeZrlVrs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pytho" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/py_excl" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\untitled\yaml" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\untitled\py_excl" />
       <recent name="D:\untitled\testcases" />
       <recent name="D:\untitled" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\untitled\yaml" />
     </key>
   </component>
   <component name="RunManager" selected="Python.test_read_case">
@@ -288,10 +293,18 @@
       <option name="project" value="LOCAL" />
       <updated>1663581708055</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="上传11">
+      <created>1663648145318</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1663648145318</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="cs" />
     <MESSAGE value="pytest csss" />
     <MESSAGE value="上传11" />
@@ -310,10 +323,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="899" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1663212674209" />
-    <state x="569" y="157" key="CommitChangelistDialog2" timestamp="1663581706951">
+    <state x="569" y="157" key="CommitChangelistDialog2" timestamp="1663648144147">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="569" y="157" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1663581706951" />
+    <state x="569" y="157" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1663648144147" />
     <state x="862" y="284" key="FileChooserDialogImpl" timestamp="1663646377888">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -326,22 +339,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="769" y="518" width="273" height="218" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1663296647509" />
-    <state width="1271" height="278" key="GridCell.Tab.0.bottom" timestamp="1663647808986">
+    <state width="1271" height="278" key="GridCell.Tab.0.bottom" timestamp="1663662747133">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1271" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1663647808986" />
-    <state width="1271" height="278" key="GridCell.Tab.0.center" timestamp="1663647808986">
+    <state width="1271" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1663662747133" />
+    <state width="1271" height="278" key="GridCell.Tab.0.center" timestamp="1663662747133">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1271" height="278" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1663647808986" />
-    <state width="1271" height="278" key="GridCell.Tab.0.left" timestamp="1663647808986">
+    <state width="1271" height="278" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1663662747133" />
+    <state width="1271" height="278" key="GridCell.Tab.0.left" timestamp="1663662747133">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1271" height="278" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1663647808986" />
-    <state width="1271" height="278" key="GridCell.Tab.0.right" timestamp="1663647808986">
+    <state width="1271" height="278" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1663662747133" />
+    <state width="1271" height="278" key="GridCell.Tab.0.right" timestamp="1663662747133">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1271" height="278" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1663647808986" />
+    <state width="1271" height="278" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1663662747133" />
     <state width="1271" height="247" key="GridCell.Tab.1.bottom" timestamp="1663582458719">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
