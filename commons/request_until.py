@@ -11,6 +11,7 @@ import pytest
 
 @pytest.fixture(scope='session', autouse=True)
 def start_test():
+    rq = HttpRequest()
     # 定义读取表格变量excel
     excel = ExcelReader(r"D:\untitled\py_excl\login_excel.xlsx")
     #  定义统计所有列的变量count_raw
@@ -21,4 +22,5 @@ def start_test():
         data = eval(excel.get_request_data(row))  # 此处参数类型不是字符串，所以用eval转换为字典类型
         method = excel.get_method(row)
         headers = eval(excel.get_headers(row))  # 此处参数类型不是字符串，所以用eval转换为字典类型
-        res = HttpRequest().send_all_request(method=method, headers=headers, url=url, params=data)
+        res = rq.send_all_request(method=method, headers=headers, url=url, params=data)
+    return rq
