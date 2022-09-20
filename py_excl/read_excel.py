@@ -11,7 +11,7 @@ from openpyxl import load_workbook
 
 
 class ExcelReader:
-    '''不是针对普通Excel操作，专门针对测试用例表的  读、写'''
+    """不是针对普通Excel操作，专门针对测试用例表的  读、写"""
 
     def __init__(self, excel_path):
         # start_row = 5  从表的第5行开始读取
@@ -22,41 +22,48 @@ class ExcelReader:
         self.sheet_1 = self.excel_file.worksheets[0]
 
     def get_case_count(self):
-        '''获取测试用例的数量
+        """获取测试用例的数量
         ：return ：返回数量
-        '''
+        """
         # 获取这张表总共有多少行
         rows_count = self.sheet_1.max_row
         # 有效用例数必须减去表头
-        real_count = rows_count - (self.start_row - 4)
+        real_count = rows_count - (self.start_row - 1)
         return real_count
 
     def get_test_case_describe(self, rows):
-        '''获取接口描述， rows的参数是0开始，表示第1行'''
+        """获取接口描述， rows的参数是0开始，表示第1行"""
         # self.start_row + rows 起始行+想要获取的行， 3表示接口url所在的固定列是3
         return self.sheet_1.cell(self.start_row + rows, 1).value
 
     def get_method(self, rows):
-        '''获取接口请求方式， rows的参数是0开始，表示第1行'''
+        """获取接口请求方式， rows的参数是0开始，表示第1行"""
         # self.start_row + rows 起始行+想要获取的行， 3表示接口url所在的固定列是3
         return self.sheet_1.cell(self.start_row + rows, 2).value
 
     def get_url(self, rows):
-        '''获取接口URL， rows的参数是0开始，表示第1行'''
+        """获取接口URL， rows的参数是0开始，表示第1行"""
         # self.start_row + rows 起始行+想要获取的行， 3表示接口url所在的固定列是3
         return self.sheet_1.cell(self.start_row + rows, 3).value
 
     def get_headers(self, rows):
-        '''获取接口请求头部， rows的参数是0开始，表示第1行'''
+        """获取接口请求头部， rows的参数是0开始，表示第1行"""
         # self.start_row + rows 起始行+想要获取的行， 3表示接口url所在的固定列是3
         return self.sheet_1.cell(self.start_row + rows, 4).value
 
     def get_request_data(self, rows):
-        '''获取接口请求参数， rows的参数是0开始，表示第1行'''
+        """获取接口请求参数， rows的参数是0开始，表示第1行"""
         # self.start_row + rows 起始行+想要获取的行， 3表示接口url所在的固定列是3
         return self.sheet_1.cell(self.start_row + rows, 5).value
 
     def get_start_code(self, rows):
-        '''获取接口响应状态码， rows的参数是0开始，表示第1行'''
+        """获取接口响应状态码， rows的参数是0开始，表示第1行"""
         # self.start_row + rows 起始行+想要获取的行， 3表示接口url所在的固定列是3
         return self.sheet_1.cell(self.start_row + rows, 6).value
+
+    def close_file(self, ):
+        """关闭Excel"""
+        self.excel_file.close()
+
+    def set_pass_or_fail(self, rows, text):
+        self.sheet_1.cell(self.start_row + rows, 6, value=text)

@@ -1,3 +1,4 @@
+openpyxl
 pytest-html
 pytest-xdist
 pytest-ordering
