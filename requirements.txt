@@ -1,3 +1,4 @@
+jsonpath
 openpyxl
 pytest-html
 pytest-xdist
