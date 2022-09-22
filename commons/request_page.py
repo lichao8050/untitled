@@ -13,7 +13,6 @@ class HttpRequest:
     session = requests.session()
 
     def send_all_request(self, method, url, **kwargs):
-        print(50 * '*' + '开始测试' + 50 * '*')
         method = str(method).lower()
         res = ""
         if method == 'get':

@@ -1,9 +1,0 @@
-{
-  "testcases/test_login.py::TestApi::test_soft_action_add[testdata0]": true,
-  "testcases/test_login.py::TestApi::test_soft_action_add[testdata1]": true,
-  "testcases/test_login.py::TestApi::test_soft_action_add[consifo0]": true,
-  "testcases/test_login.py::TestApi::test_soft_action_add[consifo1]": true,
-  "testcases/test_login.py::TestApi::test_soft_action_add[cookie-test_data0]": true,
-  "testcases/test_login.py::TestApi::test_soft_action_add[Cookie-test_data0]": true,
-  "testcases/test_add_soft_action.py": true
-}
