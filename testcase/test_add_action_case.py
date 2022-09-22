@@ -2,13 +2,14 @@
 # @Time     : 2022/9/16 10:44
 # @Author   : Mr_Li
 # @FileName : test_add_action_case.py
-
+import pytest
 from commons.read_excel_until import ExcelReader
 from commons.request_page import HttpRequest
 
 
 class TestApi:
 
+    @pytest.mark.smoke
     def test_select_action(self):
         """查看执行项目详情"""
         excel = ExcelReader(r"D:\untitled\excel\test_selectaction_excel.xlsx")
@@ -28,6 +29,7 @@ class TestApi:
             print("接口响应数据：%s" % res.json())
             print(200 * '*')
 
+    @pytest.mark.cttest
     def test_add_new_action(self):
         excel = ExcelReader(r"D:\untitled\excel\test_add_new_action.xlsx")
         count_row = excel.get_case_count()
