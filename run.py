@@ -6,4 +6,4 @@ from commons.yaml_until import YamlUntil
 import pytest
 
 if __name__ == '__main__':
-    pytest.main()
+    pytest.main(['D:/untitled/testcase/test_add_action_case.py'])

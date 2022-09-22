@@ -11,7 +11,7 @@ class TestApi:
 
     def test_select_action(self):
         """查看执行项目详情"""
-        excel = ExcelReader(r"D:\untitled\testcase\test_selectaction_excel.xlsx")
+        excel = ExcelReader(r"D:\untitled\excel\test_selectaction_excel.xlsx")
         #  定义统计所有列的变量count_raw
         count_row = excel.get_case_count()
         for row in range(0, count_row):  # 循环语句   row是变量  范围是0到count
