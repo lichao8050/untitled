@@ -25,4 +25,17 @@ if __name__ == '__main__':
 3. python文件中包含如下代码，则可运行当前目录下，的测试类或者测试方法（以test_开头或者以test结尾的类.py文件，
     以test_开头的测试方法,具体可参照配置文件），同时使用到多个参数时，格式如下：
     pytest.main(['D:/untitled/testcase/test_add_action_case.py::TestApi::test_add_new_action', '-q'])
+4.pytest配置文件相关参数
+    -v：显示更详细的信息
+    -vs：这两个参数一起用
+    -n ：支持多线程或者分布式运行测试用例
+     如：pytest -vs ./testcase/test_login.py -n 2
+    --html : 测试报告位置
+    --reruns ： 失败重跑
+    -p no:warnings  ： 取消警告
+    --ff ： 先执行上次失败的用例
+    --lf ： 只执行上次失败的用例
+    -x ： 遇到测试用例fail，就结束测试
+    --maxfail=num：遇到num条测试用例fail, 就结束测试
+    -k ：根据测试用例的部分字符串指定测试用例
     """
