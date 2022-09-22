@@ -10,19 +10,23 @@ from commons.request_page import HttpRequest
 class TestApi:
 
     def test_select_action(self):
-
+        """查看执行项目详情"""
         excel = ExcelReader(r"D:\untitled\testcase\test_selectaction_excel.xlsx")
         #  定义统计所有列的变量count_raw
         count_row = excel.get_case_count()
         for row in range(0, count_row):  # 循环语句   row是变量  范围是0到count
             case_describe = excel.get_test_case_describe(row)
             print("用例描述：%s" % case_describe)
+            method = excel.get_method(row)
+            print("接口请求方法：%s" % method)
             url = excel.get_url(row)
+            print("接口请求地址：%s" % url)
             data = eval(excel.get_request_data(row))  # 此处参数类型不是字符串，所以用eval转换为字典类型
             print("接口请求数据：%s" % data)
-            method = excel.get_method(row)
             res = HttpRequest().send_all_request(method=method, url=url, params=data)
+            print("接口响应代码：%s" % res.status_code)
             print("接口响应数据：%s" % res.json())
+            print(200 * '*')
 
 
 """[pytest]

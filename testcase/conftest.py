@@ -36,4 +36,3 @@ def test_login():
 
     print("登录获取session：%s" % res.headers['set-Cookie'])
     yield res
-    print(50 * '*' + '测试用例执行完毕' + 50 * '*')
