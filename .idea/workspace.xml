@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/commons/read_excel_until.py" beforeDir="false" afterPath="$PROJECT_DIR$/commons/read_excel_until.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/excel/login_excel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/excel/login_excel.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_login/testlogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_login/testlogin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/test_add_action_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_add_action_case.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="68afff3c-f3b6-4c87-bb3d-78d7f6bf2032" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -347,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663841964756</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="excel读取测试数据并发送请求">
+      <created>1663906271060</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1663906271060</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -375,10 +384,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="899" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1663212674209" />
-    <state x="569" y="157" key="CommitChangelistDialog2" timestamp="1663841963868">
+    <state x="569" y="157" key="CommitChangelistDialog2" timestamp="1663906269751">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="569" y="157" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1663841963868" />
+    <state x="569" y="157" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1663906269751" />
     <state x="862" y="284" key="FileChooserDialogImpl" timestamp="1663903905031">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -387,26 +396,30 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="751" y="475" width="382" height="173" key="Github.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1663214762257" />
+    <state x="715" y="474" key="Github.Dialog.Accounts.Choose" timestamp="1663915365799">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="715" y="474" key="Github.Dialog.Accounts.Choose/0.0.1920.1050@0.0.1920.1050" timestamp="1663915365799" />
     <state x="769" y="518" width="273" height="218" key="Github.ShareDialog" timestamp="1663835793850">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="769" y="518" width="273" height="218" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1663835793850" />
-    <state width="1245" height="278" key="GridCell.Tab.0.bottom" timestamp="1663906236801">
+    <state width="1245" height="278" key="GridCell.Tab.0.bottom" timestamp="1663916538781">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1245" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1663906236801" />
-    <state width="1245" height="278" key="GridCell.Tab.0.center" timestamp="1663906236800">
+    <state width="1245" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1663916538781" />
+    <state width="1245" height="278" key="GridCell.Tab.0.center" timestamp="1663916538781">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1245" height="278" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1663906236800" />
-    <state width="1245" height="278" key="GridCell.Tab.0.left" timestamp="1663906236800">
+    <state width="1245" height="278" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1663916538781" />
+    <state width="1245" height="278" key="GridCell.Tab.0.left" timestamp="1663916538781">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1245" height="278" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1663906236800" />
-    <state width="1245" height="278" key="GridCell.Tab.0.right" timestamp="1663906236801">
+    <state width="1245" height="278" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1663916538781" />
+    <state width="1245" height="278" key="GridCell.Tab.0.right" timestamp="1663916538781">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1245" height="278" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1663906236801" />
+    <state width="1245" height="278" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1663916538781" />
     <state width="1245" height="247" key="GridCell.Tab.1.bottom" timestamp="1663901513740">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -427,10 +440,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="751" y="203" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1663835510878" />
-    <state x="485" y="360" key="Vcs.Push.Dialog.v2" timestamp="1663842050458">
+    <state x="485" y="360" key="Vcs.Push.Dialog.v2" timestamp="1663915354570">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="485" y="360" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1663842050458" />
+    <state x="485" y="360" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1663915354570" />
     <state width="654" height="398" key="XDebugger.FullValuePopup" timestamp="1663831122635">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

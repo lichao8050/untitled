@@ -27,9 +27,11 @@ class TestLogin:
             print("接口响应代码：%s" % res.status_code)
             print("接口响应数据：%s" % res.json())
             if res.status_code != int(excel.get_start_code(row)):
-                excel.set_pass_or_fail(row, "fail")
+                excel.set_pass_or_fail(row, 9, "fail")
+
             else:
-                excel.set_pass_or_fail(row, "pass")
+                excel.set_pass_or_fail(row, 9, "pass")
+            excel.set_pass_or_fail(row, 8, res.text)
             excel.save_file("D:\\untitled\\excel\\login_excel.xlsx")
             excel.close_file()
 

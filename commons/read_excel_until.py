@@ -55,10 +55,15 @@ class ExcelReader:
         # self.start_row + rows 起始行+想要获取的行， 6表示接口url所在的固定列是6
         return self.sheet_1.cell(self.start_row + rows, 6).value
 
-    def get_is_true_or_fail(self, rows):
-        """接口实际结果"""
+    def get_response_data(self, rows):
+        """接口返回数据"""
         # self.start_row + rows 起始行+想要获取的行， 8表示接口url所在的固定列是8
         return self.sheet_1.cell(self.start_row + rows, 8).value
+
+    def get_is_true_or_fail(self, rows):
+        """接口测试结果"""
+        # self.start_row + rows 起始行+想要获取的行， 9表示接口url所在的固定列是9
+        return self.sheet_1.cell(self.start_row + rows, 9).value
 
     def save_file(self, file1):
         """保存Excel"""
@@ -69,8 +74,8 @@ class ExcelReader:
         self.excel_file.close()
 
     # 设置某个单元格的值
-    def set_pass_or_fail(self, rows, text):
-        self.sheet_1.cell(self.start_row + rows, 8, value=text)
+    def set_pass_or_fail(self, rows, value, text):
+        self.sheet_1.cell(self.start_row + rows, value, value=text)
 
     def write_value(self, row, col, value):
         data = xlrd.open_workbook(self.file)
