@@ -6,6 +6,7 @@ import requests
 import time
 import json
 import jsonpath
+from log import Log
 
 
 class HttpRequest:
@@ -13,6 +14,7 @@ class HttpRequest:
     session = requests.session()
 
     def send_all_request(self, method, url, **kwargs):
+
         method = str(method).lower()
         res = ""
         if method == 'get':

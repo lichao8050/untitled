@@ -5,11 +5,13 @@
 from commons.request_page import HttpRequest
 from commons.read_excel_until import ExcelReader
 import pytest
+from log import Log
 
 
 class TestLogin:
 
     def test_login(self):
+        logger.info("开始执行接口测试")
         excel = ExcelReader(r"D:\untitled\excel\login_excel.xlsx")
         count_row = excel.get_case_count()
         for row in range(0, count_row):
@@ -28,12 +30,10 @@ class TestLogin:
             print("接口响应数据：%s" % res.json())
             if res.status_code != int(excel.get_start_code(row)):
                 excel.set_pass_or_fail(row, 9, "fail")
-
             else:
                 excel.set_pass_or_fail(row, 9, "pass")
             excel.set_pass_or_fail(row, 8, res.text)
             excel.save_file("D:\\untitled\\excel\\login_excel.xlsx")
             excel.close_file()
-
             print(res.json().get('name'))
             print(200 * '*')

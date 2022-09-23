@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b4e4dde-eb67-4877-9225-1827febf5a28" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/mylog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/read_excel_until.py" beforeDir="false" afterPath="$PROJECT_DIR$/commons/read_excel_until.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/request_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/commons/request_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/excel/login_excel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/excel/login_excel.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_login/testlogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_login/testlogin.py" afterDir="false" />
     </list>
@@ -45,21 +47,21 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pytho" />
+    <property name="last_opened_file_path" value="E:/A999" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\untitled\py_excl" />
+      <recent name="D:\untitled\testcases" />
+      <recent name="D:\untitled" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\untitled" />
       <recent name="D:\untitled\excel" />
       <recent name="D:\untitled\commons" />
       <recent name="D:\untitled\testcase" />
       <recent name="D:\untitled\yaml" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\untitled\py_excl" />
-      <recent name="D:\untitled\testcases" />
-      <recent name="D:\untitled" />
     </key>
   </component>
   <component name="RunManager" selected="Python.run">
@@ -356,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663906271060</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="excel读取测试数据并发送请求">
+      <created>1663916584882</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1663916584882</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -384,18 +393,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="899" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1663212674209" />
-    <state x="569" y="157" key="CommitChangelistDialog2" timestamp="1663906269751">
+    <state x="569" y="157" key="CommitChangelistDialog2" timestamp="1663916583852">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="569" y="157" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1663906269751" />
-    <state x="862" y="284" key="FileChooserDialogImpl" timestamp="1663903905031">
+    <state x="569" y="157" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1663916583852" />
+    <state x="862" y="284" key="FileChooserDialogImpl" timestamp="1663924411421">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="862" y="284" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1663903905031" />
-    <state x="751" y="475" width="382" height="173" key="Github.CreateGistDialog" timestamp="1663214762257">
+    <state x="862" y="284" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1663924411421" />
+    <state x="751" y="475" width="382" height="222" key="Github.CreateGistDialog" timestamp="1663918711359">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="751" y="475" width="382" height="173" key="Github.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1663214762257" />
+    <state x="751" y="475" width="382" height="222" key="Github.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1663918711359" />
     <state x="715" y="474" key="Github.Dialog.Accounts.Choose" timestamp="1663915365799">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -404,22 +413,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="769" y="518" width="273" height="218" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1663835793850" />
-    <state width="1245" height="278" key="GridCell.Tab.0.bottom" timestamp="1663916538781">
+    <state width="1245" height="278" key="GridCell.Tab.0.bottom" timestamp="1663924588566">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1245" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1663916538781" />
-    <state width="1245" height="278" key="GridCell.Tab.0.center" timestamp="1663916538781">
+    <state width="1245" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1663924588566" />
+    <state width="1245" height="278" key="GridCell.Tab.0.center" timestamp="1663924588566">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1245" height="278" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1663916538781" />
-    <state width="1245" height="278" key="GridCell.Tab.0.left" timestamp="1663916538781">
+    <state width="1245" height="278" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1663924588566" />
+    <state width="1245" height="278" key="GridCell.Tab.0.left" timestamp="1663924588566">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1245" height="278" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1663916538781" />
-    <state width="1245" height="278" key="GridCell.Tab.0.right" timestamp="1663916538781">
+    <state width="1245" height="278" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1663924588566" />
+    <state width="1245" height="278" key="GridCell.Tab.0.right" timestamp="1663924588566">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1245" height="278" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1663916538781" />
+    <state width="1245" height="278" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1663924588566" />
     <state width="1245" height="247" key="GridCell.Tab.1.bottom" timestamp="1663901513740">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
