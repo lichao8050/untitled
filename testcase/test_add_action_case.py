@@ -63,5 +63,7 @@ python_functions = test_*
 base_url = http://192.168.20.102:180/
 # 给用例分组,自定义  用例上加上@pytest.mark.somking装饰器
 markers=
-    smoke:冒烟测试
-    usermanage:用户登录"""
+    smoke（冒烟测试）
+    usermanage（用户登录）
+    ...
+    """

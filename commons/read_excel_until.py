@@ -60,9 +60,9 @@ class ExcelReader:
         # self.start_row + rows 起始行+想要获取的行， 8表示接口url所在的固定列是8
         return self.sheet_1.cell(self.start_row + rows, 8).value
 
-    def save_file(self):
+    def save_file(self, file1):
         """保存Excel"""
-        self.excel_file.save(r"D:\untitled\py_excl\test_excel.xlsx")
+        self.excel_file.save(file1)
 
     def close_file(self):
         """关闭Excel"""

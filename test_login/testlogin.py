@@ -26,4 +26,12 @@ class TestLogin:
             res = HttpRequest().send_all_request(method=method, headers=headers, url=url, params=data)
             print("接口响应代码：%s" % res.status_code)
             print("接口响应数据：%s" % res.json())
+            if res.status_code != int(excel.get_start_code(row)):
+                excel.set_pass_or_fail(row, "fail")
+            else:
+                excel.set_pass_or_fail(row, "pass")
+            excel.save_file("D:\\untitled\\excel\\login_excel.xlsx")
+            excel.close_file()
+
+            print(res.json().get('name'))
             print(200 * '*')
