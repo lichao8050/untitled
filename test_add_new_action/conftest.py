@@ -8,7 +8,7 @@ from commons.read_excel_until import ExcelReader
 
 
 # 使用pytest夹具定义前置、后置
-@pytest.fixture(scope='class', autouse=True)
+@pytest.fixture(scope='session')
 def get_session():
     print(50 * '*' + '开始测试' + 50 * '*')
     excel = ExcelReader(r"D:\untitled\excel\test_add_new_action.xlsx")
