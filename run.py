@@ -9,7 +9,7 @@ if __name__ == '__main__':
     # pytest.main(['D:/untitled/testcase/test_add_action_case.py', '-q', '-m cttest'])
     # pytest.main(['D:/untitled/test_login/testlogin.py', '-q'])
     # pytest.main(['D:/untitled/testcase/test_add_new_action.py', '-q'])
-    pytest.main(['D:/untitled/test_add_new_action/test_new_action.py', '-q'])
+    pytest.main(['D:/untitled/test_add_new_action/test_new_action.py', '-q', '-m actiontest'])
 
 
 """pytest.main()的使用
@@ -23,10 +23,11 @@ if __name__ == '__main__':
 　　　　（3）'-k' ：运行包含某个字符串的测试用例。如：pytest -k add XX.py 表示运行XX.py中包含add的测试用例。
 　　　　（4）'q':减少测试的运行冗长。
 　　　　（5）'-x':出现一条测试用例失败就退出测试。在调试阶段非常有用，当测试用例失败时，应该先调试通过，而不是继续执行测试用例
-        （6）'-m ' 打上标记，用法pytest.main(['D:/untitled/testcase/test_add_action_case.py', '-m cttest'])
-        '-m +标记名'
+        （6）'-m ' 打上标记，'-m +标记名'
+        用法pytest.main(['D:/untitled/testcase/test_add_action_case.py', '-m cttest'])
 　　2.3 要执行测试用例的过滤方法：
-　　　　（1）指定某个测试类或测试方法，用“::”隔开。如：命令格式：pytest 文件名.py::测试方法 ，pytest.main([模块.py::类或方法])
+　　　　（1）指定某个测试类或测试方法，用“::”隔开。
+        如：命令格式：pytest 文件名.py::测试方法 ，pytest.main([模块.py::类或方法])
         ，pytest 文件名.py::测试类::测试方法 ，pytest.main([模块.py::类::方法])
 3. python文件中包含如下代码，则可运行当前目录下，的测试类或者测试方法（以test_开头或者以test结尾的类.py文件，
     以test_开头的测试方法,具体可参照配置文件），同时使用到多个参数时，格式如下：
