@@ -8,7 +8,8 @@ import pytest
 if __name__ == '__main__':
     # pytest.main(['D:/untitled/testcase/test_add_action_case.py', '-q', '-m cttest'])
     # pytest.main(['D:/untitled/test_login/testlogin.py', '-q'])
-    pytest.main(['D:/untitled/testcase/test_add_new_action.py', '-q'])
+    # pytest.main(['D:/untitled/testcase/test_add_new_action.py', '-q'])
+    pytest.main(['D:/untitled/test_add_new_action/test_new_action.py', '-q'])
 
 
 """pytest.main()的使用

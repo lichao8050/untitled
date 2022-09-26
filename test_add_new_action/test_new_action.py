@@ -1,24 +1,16 @@
 # _*_ coding: utf-8 _*_
-# @Time     : 2022/9/22 16:47
+# @Time     : 2022/9/26 16:14
 # @Author   : Mr_Li
-# @FileName : test_add_new_action.py
+# @FileName : test_new_action.py
 from commons.read_excel_until import ExcelReader
 from commons.request_page import HttpRequest
 import pytest
 
-#
-# @pytest.fixture(scope='session', autouse=True)
-# def my_fixtruw():
-#     print('------my_fixture---前置执行脚本--------')
-#     yield
-#     print('------my_fixture---后置执行脚本--------')
 
+class TestAddNewActionApi:
 
-class TestAddNewAction():
-
-    def test_add_new_action(self):
-        """执行项目新增"""
-        excel = ExcelReader(r"D:\untitled\excel\test_add_new_action.xlsx")
+    def test_add_new_action(self, get_session):
+        res, excel = get_session
         count_row = excel.get_case_count()
         for row in range(0, count_row):
             case_describe = excel.get_test_case_describe(row)
@@ -30,13 +22,15 @@ class TestAddNewAction():
             data = eval(excel.get_request_data(row))  # 此处参数类型不是字符串，所以用eval转换为字典类型
             print("接口请求数据：%s" % data)
             res = HttpRequest().send_all_request(method=method, url=url, json=data)
-            if res.status_code != int(excel.get_start_code(row)):
+
+            if res.status_code != int(excel.get_start_code(row)):  # 判断响应代码是否等于预期值
+                # 不等于就将该用例测试结果写上“FAIL”
                 excel.set_pass_or_fail(row, 9, "FAIL")
             else:
+                # 等于就将该用例测试结果写上“PASS”
                 excel.set_pass_or_fail(row, 9, "PASS")
-            excel.set_pass_or_fail(row, 8, res.text)
-            excel.save_file(r"D:\untitled\excel\test_add_new_action.xlsx")
-            excel.close_file()
+            excel.set_pass_or_fail(row, 8, res.text)  # 将服务器返回信息写入该用例“接口响应”一栏中
+            excel.save_file(r"D:\untitled\excel\test_add_new_action.xlsx")  # 保存写入结果
             print("接口响应代码：%s" % res.status_code)
             print("接口响应数据：%s" % res.json())
             print(200 * '*')

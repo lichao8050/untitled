@@ -4,6 +4,8 @@
 # @FileName : conftest.py
 import pytest
 from commons.request_page import HttpRequest
+from commons.read_excel_until import ExcelReader
+
 """
 一、conftest.py的特点
 1、可以跨.py文件调用，有多个.py文件调用时，可让conftest.py只调用了一次fixture，或调用多次fixture
