@@ -51,7 +51,6 @@ class Log(object):
         return self.__logger
 
 
-logger = Log().Logger
 # import logging
 # import os
 # import time

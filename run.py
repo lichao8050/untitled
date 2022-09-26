@@ -7,7 +7,10 @@ import pytest
 
 if __name__ == '__main__':
     # pytest.main(['D:/untitled/testcase/test_add_action_case.py', '-q', '-m cttest'])
-    pytest.main(['D:/untitled/test_login/testlogin.py', '-q'])
+    # pytest.main(['D:/untitled/test_login/testlogin.py', '-q'])
+    pytest.main(['D:/untitled/testcase/test_add_new_action.py', '-q'])
+
+
 """pytest.main()的使用
 1. pytest的两种运行模式，一种是命令行运行，另外一种是调用pytest.main() 运行
 2. pytest.main() 运行模式时，不添加任何参数，表示运行当前目录下的所有的测试文件；

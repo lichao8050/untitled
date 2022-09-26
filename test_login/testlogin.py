@@ -6,6 +6,7 @@ from commons.request_page import HttpRequest
 from commons.read_excel_until import ExcelReader
 import pytest
 from log import Log
+logger = Log().Logger
 
 
 class TestLogin:
