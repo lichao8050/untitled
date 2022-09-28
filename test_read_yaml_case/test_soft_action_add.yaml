@@ -1,0 +1,111 @@
+-
+  title: 新增执行项目接口（软装）1
+  request:
+    method: post
+    url: http://kbs.matrixdesign.cn/api/authapi/bsProInfo/save
+    data: {"bidAmount": 0,
+           "bsPaymentList": [{"entityStatus": 0,"index": 0}],
+           "proName": "20220919财务开票测试项目4",
+           "bsType": "1280327578854494209",
+           "proType": "1284015946851291137",
+           "customerId": "1331086994964615170",
+           "signCompany": "厦门亿联软件有限公司",
+           "bsDirectorId": "15531517835544798",
+           "bsDirector": "何婷婷",
+           "bsManager": "伍月",
+           "bsManagerId": "15583162931904359",
+           "proSource": "1302935975869157378",
+           "sybCategory": "softType",
+           "auditStatus": 50,
+           "proStage": "1284035504538521602",
+           "sapNumber": "CS11434421",
+           "proProvince": "210000",
+           "proCity": "210400",
+           "matrixArea": "东北",
+           "adminArea": "东北地区",
+           "proAddress": "测试1",
+           "companyEntity": "2",
+           "bsProDetailsList": [{"entityStatus": 1,"index": 0}],
+           "isSupAgreement": "no","isEstate": 1,"isWarrantyPeriod": "no","createBy": "伍月",
+           "createDate": "2022-09-14 11:13:02","proRegister": "15583162931904359",
+           "proRegisterTime": "2022-04-21 11:13:03","isMineHard": "1326127662460178433",
+           "hardCompany": "矩阵纵横设计股份有限公司","designDirection": "1测试1","preference": "测1试",
+           "isArtNeeds": "暂无1","isSingleList": "yes","isPleasedHard": "yes","planFinishDate": "2022-04-21 11:22:53",
+           "proStartDate": "2022-04-21 11:22:58","expectContractSignTime": "2022-08-31 11:23:01",
+           "bsProgress": "1326161122331594754","proStatus": "直委项目",
+           "bsProFollowRecordList": [{"entityStatus": 1,"hasError": "false","index": 0 }]}
+    validate: null
+-
+  title: 新增执行项目接口（软装）2
+  request:
+    method: post
+    url: http://kbs.matrixdesign.cn/api/authapi/bsProInfo/save
+    data: {"bidAmount": 0,
+           "bsPaymentList": [{"entityStatus": 0,"index": 0}],
+           "proName": "20220919财务开票测试项目5",
+           "bsType": "1280327578854494209",
+           "proType": "1284015946851291137",
+           "customerId": "1331086994964615170",
+           "signCompany": "厦门亿联软件有限公司",
+           "bsDirectorId": "15531517835544798",
+           "bsDirector": "何婷婷",
+           "bsManager": "伍月",
+           "bsManagerId": "15583162931904359",
+           "proSource": "1302935975869157378",
+           "sybCategory": "softType",
+           "auditStatus": 50,
+           "proStage": "1284035504538521602",
+           "sapNumber": "CS11434421",
+           "proProvince": "210000",
+           "proCity": "210400",
+           "matrixArea": "东北",
+           "adminArea": "东北地区",
+           "proAddress": "测试1",
+           "companyEntity": "2",
+           "bsProDetailsList": [{"entityStatus": 1,"index": 0}],
+           "isSupAgreement": "no","isEstate": 1,"isWarrantyPeriod": "no","createBy": "伍月",
+           "createDate": "2022-09-14 11:13:02","proRegister": "15583162931904359",
+           "proRegisterTime": "2022-04-21 11:13:03","isMineHard": "1326127662460178433",
+           "hardCompany": "矩阵纵横设计股份有限公司","designDirection": "1测试1","preference": "测1试",
+           "isArtNeeds": "暂无1","isSingleList": "yes","isPleasedHard": "yes","planFinishDate": "2022-04-21 11:22:53",
+           "proStartDate": "2022-04-21 11:22:58","expectContractSignTime": "2022-08-31 11:23:01",
+           "bsProgress": "1326161122331594754","proStatus": "直委项目",
+           "bsProFollowRecordList": [{"entityStatus": 1,"hasError": "false","index": 0 }]}
+    validate: null
+-
+  title: 新增执行项目接口（软装）3
+  request:
+    method: post
+    url: http://kbs.matrixdesign.cn/api/authapi/bsProInfo/save
+    data: {"bidAmount": 0,
+           "bsPaymentList": [{"entityStatus": 0,"index": 0}],
+           "proName": "20220919财务开票测试项目6",
+           "bsType": "1280327578854494209",
+           "proType": "1284015946851291137",
+           "customerId": "1331086994964615170",
+           "signCompany": "厦门亿联软件有限公司",
+           "bsDirectorId": "15531517835544798",
+           "bsDirector": "何婷婷",
+           "bsManager": "伍月",
+           "bsManagerId": "15583162931904359",
+           "proSource": "1302935975869157378",
+           "sybCategory": "softType",
+           "auditStatus": 50,
+           "proStage": "1284035504538521602",
+           "sapNumber": "CS11434421",
+           "proProvince": "210000",
+           "proCity": "210400",
+           "matrixArea": "东北",
+           "adminArea": "东北地区",
+           "proAddress": "测试1",
+           "companyEntity": "2",
+           "bsProDetailsList": [{"entityStatus": 1,"index": 0}],
+           "isSupAgreement": "no","isEstate": 1,"isWarrantyPeriod": "no","createBy": "伍月",
+           "createDate": "2022-09-14 11:13:02","proRegister": "15583162931904359",
+           "proRegisterTime": "2022-04-21 11:13:03","isMineHard": "1326127662460178433",
+           "hardCompany": "矩阵纵横设计股份有限公司","designDirection": "1测试1","preference": "测1试",
+           "isArtNeeds": "暂无1","isSingleList": "yes","isPleasedHard": "yes","planFinishDate": "2022-04-21 11:22:53",
+           "proStartDate": "2022-04-21 11:22:58","expectContractSignTime": "2022-08-31 11:23:01",
+           "bsProgress": "1326161122331594754","proStatus": "直委项目",
+           "bsProFollowRecordList": [{"entityStatus": 1,"hasError": "false","index": 0 }]}
+    validate: null
