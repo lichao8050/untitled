@@ -9,6 +9,7 @@ from commons.yaml_until import YamlUntil
 
 @pytest.fixture(scope='class', autouse=True)
 def test_login_api():
+    print(50 * '*' + '加载前置' + 50 * '*')
     method = "post"
     url = r'http://kbs.matrixdesign.cn/api/pmtapi/base_Account/login'
     data = {
@@ -17,7 +18,7 @@ def test_login_api():
     }
     res = HttpRequest().send_all_request(method=method, url=url, params=data)
     print(res.headers['set-cookie'])
-    print(res.json())
+    print(res.status_code)
     yield res
 
 

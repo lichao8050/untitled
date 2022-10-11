@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b4e4dde-eb67-4877-9225-1827febf5a28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_read_yaml_case/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_read_yaml_case/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_read_yaml_case/extract.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_read_yaml_case/test_read_yaml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_read_yaml_case/test_soft_action_add.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_request_send/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_request_send/test_test1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yaml/extract.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_read_yaml_case/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_read_yaml_case/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_read_yaml_case/test_read_yaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_read_yaml_case/test_read_yaml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_read_yaml_case/test_soft_action_add.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/test_read_yaml_case/test_soft_action_add.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,28 @@
       <recent name="D:\untitled" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_read_yaml">
+  <component name="RunManager" selected="Python.test_test1">
+    <configuration name="conftest (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_add_new_action" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_add_new_action/conftest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,27 +128,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_add_action_case" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/test_add_action_case.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test_read_yaml" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,18 +149,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_request_send" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_request_send/test_test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.run" />
-      <item itemvalue="Python.test_add_action_case" />
       <item itemvalue="Python.conftest" />
       <item itemvalue="Python.test_read_yaml" />
+      <item itemvalue="Python.conftest (1)" />
+      <item itemvalue="Python.test_test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_test1" />
         <item itemvalue="Python.test_read_yaml" />
+        <item itemvalue="Python.conftest (1)" />
         <item itemvalue="Python.conftest" />
         <item itemvalue="Python.run" />
-        <item itemvalue="Python.test_add_action_case" />
       </list>
     </recent_temporary>
   </component>
@@ -447,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664187289472</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="excel读取测试数据并发送请求">
+      <created>1664353794288</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1664353794288</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -475,10 +504,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="899" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1663212674209" />
-    <state x="569" y="157" key="CommitChangelistDialog2" timestamp="1664187288603">
+    <state x="569" y="157" key="CommitChangelistDialog2" timestamp="1664353792944">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="569" y="157" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1664187288603" />
+    <state x="569" y="157" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1664353792944" />
     <state x="862" y="284" key="FileChooserDialogImpl" timestamp="1664352661058">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -495,46 +524,46 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="769" y="518" width="273" height="218" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1663835793850" />
-    <state width="1245" height="240" key="GridCell.Tab.0.bottom" timestamp="1664353693297">
+    <state width="1245" height="240" key="GridCell.Tab.0.bottom" timestamp="1665458331427">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1245" height="240" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1664353693297" />
-    <state width="1245" height="240" key="GridCell.Tab.0.center" timestamp="1664353693297">
+    <state width="1245" height="240" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1665458331427" />
+    <state width="1245" height="240" key="GridCell.Tab.0.center" timestamp="1665458331427">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1245" height="240" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1664353693297" />
-    <state width="1245" height="240" key="GridCell.Tab.0.left" timestamp="1664353693297">
+    <state width="1245" height="240" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1665458331427" />
+    <state width="1245" height="240" key="GridCell.Tab.0.left" timestamp="1665458331427">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1245" height="240" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1664353693297" />
-    <state width="1245" height="240" key="GridCell.Tab.0.right" timestamp="1664353693297">
+    <state width="1245" height="240" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1665458331427" />
+    <state width="1245" height="240" key="GridCell.Tab.0.right" timestamp="1665458331427">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1245" height="240" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1664353693297" />
-    <state width="1245" height="314" key="GridCell.Tab.1.bottom" timestamp="1664352468905">
+    <state width="1245" height="240" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1665458331427" />
+    <state width="1245" height="314" key="GridCell.Tab.1.bottom" timestamp="1665457310593">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1245" height="314" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1664352468905" />
-    <state width="1245" height="314" key="GridCell.Tab.1.center" timestamp="1664352468905">
+    <state width="1245" height="314" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1665457310593" />
+    <state width="1245" height="314" key="GridCell.Tab.1.center" timestamp="1665457310593">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1245" height="314" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1664352468905" />
-    <state width="1245" height="314" key="GridCell.Tab.1.left" timestamp="1664352468904">
+    <state width="1245" height="314" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1665457310593" />
+    <state width="1245" height="314" key="GridCell.Tab.1.left" timestamp="1665457310593">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1245" height="314" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1664352468904" />
-    <state width="1245" height="314" key="GridCell.Tab.1.right" timestamp="1664352468905">
+    <state width="1245" height="314" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1665457310593" />
+    <state width="1245" height="314" key="GridCell.Tab.1.right" timestamp="1665457310593">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1245" height="314" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1664352468905" />
+    <state width="1245" height="314" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1665457310593" />
     <state x="751" y="203" key="SettingsEditor" timestamp="1663835510878">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="751" y="203" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1663835510878" />
-    <state x="485" y="360" key="Vcs.Push.Dialog.v2" timestamp="1664187555704">
+    <state x="485" y="360" key="Vcs.Push.Dialog.v2" timestamp="1664353828517">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="485" y="360" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1664187555704" />
+    <state x="485" y="360" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1664353828517" />
     <state width="654" height="398" key="XDebugger.FullValuePopup" timestamp="1663831122635">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

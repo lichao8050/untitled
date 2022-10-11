@@ -5,7 +5,7 @@
     url: http://kbs.matrixdesign.cn/api/authapi/bsProInfo/save
     data: {"bidAmount": 0,
            "bsPaymentList": [{"entityStatus": 0,"index": 0}],
-           "proName": "20220919财务开票测试项目4",
+           "proName": "20220930软装归档测试项目1",
            "bsType": "1280327578854494209",
            "proType": "1284015946851291137",
            "customerId": "1331086994964615170",
@@ -34,7 +34,7 @@
            "proStartDate": "2022-04-21 11:22:58","expectContractSignTime": "2022-08-31 11:23:01",
            "bsProgress": "1326161122331594754","proStatus": "直委项目",
            "bsProFollowRecordList": [{"entityStatus": 1,"hasError": "false","index": 0 }]}
-    validate: null
+    validate: '当前项目名称已添加，无法新增'
 -
   title: 新增执行项目接口（软装）2
   request:
@@ -42,7 +42,7 @@
     url: http://kbs.matrixdesign.cn/api/authapi/bsProInfo/save
     data: {"bidAmount": 0,
            "bsPaymentList": [{"entityStatus": 0,"index": 0}],
-           "proName": "20220919财务开票测试项目5",
+           "proName": "20220930软装归档测试项目2",
            "bsType": "1280327578854494209",
            "proType": "1284015946851291137",
            "customerId": "1331086994964615170",
@@ -71,7 +71,7 @@
            "proStartDate": "2022-04-21 11:22:58","expectContractSignTime": "2022-08-31 11:23:01",
            "bsProgress": "1326161122331594754","proStatus": "直委项目",
            "bsProFollowRecordList": [{"entityStatus": 1,"hasError": "false","index": 0 }]}
-    validate: null
+    validate: 200
 -
   title: 新增执行项目接口（软装）3
   request:
@@ -79,7 +79,7 @@
     url: http://kbs.matrixdesign.cn/api/authapi/bsProInfo/save
     data: {"bidAmount": 0,
            "bsPaymentList": [{"entityStatus": 0,"index": 0}],
-           "proName": "20220919财务开票测试项目6",
+           "proName": "20220930软装归档测试项目3",
            "bsType": "1280327578854494209",
            "proType": "1284015946851291137",
            "customerId": "1331086994964615170",
@@ -108,4 +108,123 @@
            "proStartDate": "2022-04-21 11:22:58","expectContractSignTime": "2022-08-31 11:23:01",
            "bsProgress": "1326161122331594754","proStatus": "直委项目",
            "bsProFollowRecordList": [{"entityStatus": 1,"hasError": "false","index": 0 }]}
-    validate: null
+    validate: 200
+-
+  title: 新增执行项目接口（硬装）4
+  request:
+    method: post
+    url: http://kbs.matrixdesign.cn/api/authapi/bsProInfo/save
+    data: {
+           "bidAmount": 0,
+           "bsPaymentList": [{"id": "null","hasError": "false","entityStatus": 0,
+           "bsProDetialsSwList": [{"cotent": "","area": "","price": "","totalPrice": ""}],"index": 0}],
+           "proName": "20220930新增执行项目测试归档按钮硬装项目1",
+           "proArea": "",
+           "bsType": "1280327578854494209",
+           "proType": "1284015946851291137",
+           "customerId": "1331086994964615170",
+           "id": "",
+           "signCompany": "厦门亿联软件有限公司",
+           "partnerCompany": "",
+           "bsDirectorId": "15933960308972735",
+           "bsDirector": "何强明",
+           "bsManager": "郑鸿晖",
+           "bsManagerId": "16073917709738137",
+           "designDirectorName": "",
+           "designDirectorId": "",
+           "principalName": "",
+           "principalId": "",
+           "pushingPeopleName": "",
+           "pushingPeopleId": "",
+           "winRate": "",
+           "estimateAmount": "",
+           "proSource": "1302936105011777538",
+           "bidCriteria": "",
+           "bidder": "",
+           "sybCategory": "hardType",
+           "GTremark": "",
+           "JGremark": "",
+           "setMineHard": "",
+           "hardTeamId": "",
+           "hardTeam": "",
+           "softTeam": "",
+           "softTeamId": "",
+           "auditStatus": 50,
+           "holderList": "",
+           "proStage": "1284035433747058690",
+           "sapNumber": "CS122344221",
+           "contractSignTime": "",
+           "proProvince": "130000",
+           "proCity": "130100",
+           "matrixArea": "华北",
+           "adminArea": "华北地区",
+           "proAddress": "测试11",
+           "companyEntity": "2",
+           "bsProDetailsList":
+             [{"readOnly": "false","contractArea": "","actualTotaltax": "",
+              "contractPrice": "","houseTypeList": [],"houseTypeDetialString": "",
+              "processType": "normalProcess","entityStatus": 1,"hasError": "false",
+              "errorMessage": "null","index": 0,"executeRatio": "null"}],
+           "isSupAgreement": "no",
+           "mainBsId": "",
+           "mainBsName": "",
+           "isEstate": 1,
+           "sonList": "",
+           "acceptanceTime": "",
+           "completionTime": "",
+           "warrantyPeriod": "",
+           "isWarrantyPeriod": "",
+           "payAmount": "",
+           "payeeAmount": "",
+           "createBy": "何强明",
+           "createDate": "2022-09-30 09:58:43",
+           "proRegister": "15933960308972735",
+           "proRegisterTime": "2022-09-30 09:58:43",
+           "bsProgress": "1308664855590473729",
+           "isMineHard": "1326127662460178433",
+           "designDirection": "测试111",
+           "proStartDate": "2022-09-30 09:59:37",
+           "planFinishDate": "2022-09-30 09:59:39",
+           "expectContractSignTime": "2022-10-01 00:00:00",
+           "bsProTender":
+             {"commercialRate": "","competeName": "","competeProject": "","drawCloseTime": "",
+              "isBided": "","marketPostion": "","openTime": "","reportTime": "","returnTime": "",
+              "skillRate": "","otherDesign": "","id": "","wasCooperation": "","cooperationRecord": ""},
+           "proStatus": "直委项目",
+           "bsProFollowRecordList": [{
+                  "fileList": [                  ],
+                  "entityStatus": 1,
+                  "hasError": "false",
+                  "errorMessage": "",
+                  "index": 0}],
+           "bsProQuotationRecordList":
+             [
+              {
+                  "fileList": [       ],
+                  "entityStatus": 1,
+                  "hasError": "false",
+                  "errorMessage": "",
+                  "index": 0
+               }
+              ],
+           "contracts":
+             [
+              {
+                  "fileList": [                  ],
+                  "entityStatus": 1,
+                  "hasError": "false",
+                  "errorMessage": "",
+                  "index": 0
+              }
+             ],
+           "bsDkpInfo": {
+                  "newPlatRate": "",
+                  "newAreaRate": "",
+                  "newEstateRate": "",
+                  "newAreaEstate": "",
+                  "reviewRate": "",
+                  "basicDkp": "",
+                  "totalDkp": ""
+                     }
+            }
+    validate: 200
